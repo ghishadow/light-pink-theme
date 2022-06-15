@@ -1,7 +1,7 @@
 name = "light pink"
 display-name = "Light Pink"
 description = "Light Pink Theme"
-version = "0.2.0"
+version = "0.1.0"
 author = "ghishadow"
 repository = "ghishadow/light-pink-theme"
 themes = ["light-pink-theme.toml"]
