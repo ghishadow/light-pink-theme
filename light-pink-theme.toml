@@ -69,7 +69,7 @@ magenta = "#A626A4"
 
 "terminal.cursor" = "$black"
 "terminal.foreground" = "$black"
-"terminal.background" = "$white"
+"terminal.background" = "#ece8ff"
 "terminal.white" = "$white"
 "terminal.black" = "$black"
 "terminal.red" = "$red"
