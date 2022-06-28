@@ -7,8 +7,8 @@ font-size = 13
 header-height = 35
 status-height = 25
 tab-min-width = 100
-activity-width = 50
-scroll-width = 10
+activity-width = 45
+scroll-width = 5
 drop-shadow-width = 0
 
 [theme.base]
@@ -69,7 +69,7 @@ magenta = "#A626A4"
 
 "terminal.cursor" = "$black"
 "terminal.foreground" = "$black"
-"terminal.background" = "$white"
+"terminal.background" = "#ece8ff"
 "terminal.white" = "$white"
 "terminal.black" = "$black"
 "terminal.red" = "$red"
@@ -88,33 +88,33 @@ magenta = "#A626A4"
 "terminal.bright_black" = "#A0A1A7"
 
 "editor.background" = "#ece8ff"
-"editor.foreground" = "$black"
+"editor.foreground" = "#333333"
 "editor.dim" = "#A0A1A7"
 "editor.focus" = "#000000"
 "editor.caret" = "#526FFF"
 "editor.selection" = "#f1b2d2"
-"editor.current_line" = "#f1b2d2"
+"editor.current_line" = "#b9cdf0"
 "editor.link" = "$cyan"
 "source_control.added" = "#50A14F32"
 "source_control.removed" = "#FF526632"
 "source_control.modified" = "#0184BC32"
 
 "palette.background" = "#f2e3f1"
-"palette.current" = "#f1b2d2"
+"palette.current" = "#b9cdf0"
 
 "completion.background" = "#f2e3f1"
-"completion.current" = "#f1b2d2"
+"completion.current" = "#b9cdf0"
 
 "hover.background" = "#EAEAEB"
 
-"activity.background" = "#f0e7ef"
-"activity.current" = "#f1b2d2"
+"activity.background" = "#2e2638"
+"activity.current" = "#b9cdf0"
 
-"panel.background" = "#f0e7ef"
-"panel.current" = "#f1b2d2"
+"panel.background" = "#fceaf1"
+"panel.current" = "#b9cdf0"
 "panel.hovered" = "#E4E4E6"
 
-"status.background" = "#f37db5"
+"status.background" = "#ff4574"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"
 "status.modal.visual" = "$yellow"
