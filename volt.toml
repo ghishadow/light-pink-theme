@@ -4,4 +4,4 @@ display-name = "Cute Light Pink"
 description = "Cute Light Pink"
 author = "ghishadow"
 repository = "ghishadow/light-pink-theme"
-themes = ["light-pink.toml"]
+color-themes = ["light-pink.toml"]
