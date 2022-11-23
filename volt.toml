@@ -1,7 +1,9 @@
+#:schema https://raw.githubusercontent.com/ghishadow/lapce-schema/main/volt.theme.schema.json
+
 name = "lightpink"
 version = "0.2.2"
 display-name = "Light Pink"
 description = "Cute Light Pink"
 author = "ghishadow"
 repository = "ghishadow/light-pink-theme"
-themes = ["light-pink.toml"]
+color-themes = ["light-pink.toml"]

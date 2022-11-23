@@ -1,4 +1,6 @@
-[theme]
+#:schema https://raw.githubusercontent.com/ghishadow/lapce-schema/main/theme.schema.json
+
+[color-theme]
 name = "Cute Light Pink"
 
 [ui]
@@ -7,12 +9,12 @@ font-size = 13
 header-height = 35
 status-height = 25
 tab-min-width = 100
-activity-width = 45
-scroll-width = 5
+activity-width = 50
+scroll-width = 10
 drop-shadow-width = 0
 
-[theme.base]
-white = "f4f5f8"
+[color-theme.base]
+white = "#f4f5f8"
 black = "#383A42"
 grey = "#E5E5E6"
 light_grey = "#F2F2F2"
@@ -23,8 +25,9 @@ green = "#50A14F"
 purple = "#A626A4"
 cyan = "#0184BC"
 magenta = "#A626A4"
+orange = "#FF3403"
 
-[theme.syntax]
+[color-theme.syntax]
 "comment" = "#A0A1A7"
 
 "constant" = "$yellow"
@@ -49,16 +52,24 @@ magenta = "#A626A4"
 "property" = "$red"
 "enumMember" = "$red"
 "enum-member" = "$red"
-"variable.other.member" = "$red"
 
 "string" = "$green"
+"string.escape" = "$cyan"
 
 "type.builtin" = "$cyan"
 "builtinType" = "$cyan"
 "escape" = "$cyan"
 "embedded" = "$cyan"
 
-[theme.ui]
+"punctuation.delimiter" = "$yellow"
+"text.title" = "$orange"
+"text.uri" = "$cyan"
+"text.reference" = "$yellow"
+"variable" = "$red"
+"variable.other.member" = "$green"
+"tag" = "$blue"
+
+[color-theme.ui]
 "lapce.active_tab" = "#ece8ff"
 "lapce.inactive_tab" = "$grey"
 "lapce.error" = "#E51400"
@@ -88,7 +99,7 @@ magenta = "#A626A4"
 "terminal.bright_black" = "#A0A1A7"
 
 "editor.background" = "#ece8ff"
-"editor.foreground" = "#333333"
+"editor.foreground" = "$black"
 "editor.dim" = "#A0A1A7"
 "editor.focus" = "#000000"
 "editor.caret" = "#526FFF"
@@ -125,3 +136,55 @@ magenta = "#A626A4"
 "status.modal.terminal" = "$purple"
 
 "markdown.blockquote" = "#686868"
+
+"lapce.button.primary.background" = "#50a14f"
+"lapce.button.primary.foreground" = "$white"
+
+# tab
+"lapce.tab.active.background" = "$white"
+"lapce.tab.active.foreground" = "$black"
+"lapce.tab.active.underline" = "#528BFF"
+
+"lapce.tab.inactive.background" = "#EAEAEB"
+"lapce.tab.inactive.foreground" = "$black"
+"lapce.tab.inactive.underline" = "#528BFF77"
+
+"lapce.tab.separator" = "#B4B4B4"
+
+"lapce.icon.active" = "$black"
+"lapce.icon.inactive" = "#A0A1A7"
+
+"lapce.remote.local" = "#4078F2"
+"lapce.remote.connected" = "#50A14F"
+"lapce.remote.connecting" = "#C18401"
+"lapce.remote.disconnected" = "#E45649"
+
+"lapce.plugin.name" = "#444444"
+"lapce.plugin.description" = "$black"
+"lapce.plugin.author" = "#707070"
+
+
+"editor.visible_whitespace" = "$grey"
+"editor.indent_guide" = "$grey"
+"editor.drag_drop_background" = "#79c1fc33"
+"editor.drag_drop_tab_background" = "#0b0e1433"
+
+"error_lens.error.foreground" = "$red"
+"error_lens.error.background" = "#E4564920"
+"error_lens.warning.foreground" = "$yellow"
+"error_lens.warning.background" = "#C1840120"
+"error_lens.other.foreground" = "#A0A1A7"
+"error_lens.other.background" = "#A0A1A720"
+
+"palette.foreground" = "$black"
+"palette.current.background" = "#DBDBDC"
+"palette.current.foreground" = "$black"
+
+"panel.foreground" = "$black"
+"panel.foreground.dim" = "#A0A1A7"
+"panel.current.background" = "#DBDBDC"
+"panel.current.foreground" = "$black"
+"panel.current.foreground.dim" = "#A0A1A7"
+"panel.hovered.background" = "#E4E4E6"
+"panel.hovered.foreground" = "$black"
+"panel.hovered.foreground.dim" = "#A0A1A7"
