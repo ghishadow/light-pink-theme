@@ -1,5 +1,4 @@
-#:schema https://raw.githubusercontent.com/ghishadow/lapce-schema/main/theme.schema.json
-
+#:schema https://raw.githubusercontent.com/ghishadow/lapce-schema/blob/main/theme.schema.json
 [color-theme]
 name = "Cute Light Pink"
 
@@ -14,7 +13,7 @@ scroll-width = 10
 drop-shadow-width = 0
 
 [color-theme.base]
-white = "#FAFAFA"
+white = "f4f5f8"
 black = "#383A42"
 grey = "#E5E5E6"
 light_grey = "#D3D3D3"
@@ -61,7 +60,7 @@ orange = "#F25B43"
 "escape" = "$cyan"
 "embedded" = "$cyan"
 
-"punctuation.delimiter" = "$black"
+"punctuation.delimiter" = "$yellow"
 "text.title" = "$orange"
 "text.uri" = "$cyan"
 "text.reference" = "$yellow"
@@ -70,13 +69,20 @@ orange = "#F25B43"
 "tag" = "$blue"
 
 [color-theme.ui]
-"lapce.active_tab" = "#FEEEEC"
+"lapce.active_tab" = "#ece8ff"
 "lapce.inactive_tab" = "$grey"
 "lapce.error" = "$red"
 "lapce.warn" = "$yellow"
 "lapce.dropdown_shadow" = "#B4B4B4"
 "lapce.border" = "#B4B4B4"
 "lapce.scroll_bar" = "#B4B4B4"
+"lapce.icon_active" = "$black"
+"lapce.icon_inactive" = "$grey"
+
+"lapce.remote.local" = "#4078F2"
+"lapce.remote.connected" = "#50A14F"
+"lapce.remote.connecting" = "#C18401"
+"lapce.remote.discconnected" = "#E45649"
 
 "terminal.cursor" = "$black"
 "terminal.foreground" = "$black"
