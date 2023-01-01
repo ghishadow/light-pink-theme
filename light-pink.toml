@@ -13,18 +13,17 @@ scroll-width = 10
 drop-shadow-width = 0
 
 [color-theme.base]
-white = "f4f5f8"
 black = "#383A42"
-grey = "#E5E5E6"
-light_grey = "#D3D3D3"
 blue = "#83A1FF"
-red = "#E45649"
-yellow = "#FF9E3B"
-green = "#50A14F"
-purple = "#793DC3"
 cyan = "#5DC0C7"
+green = "#50A14F"
+grey = "#E5E5E6"
 magenta = "#C13291"
 orange = "#F25B43"
+purple = "#793DC3"
+white = "f4f5f8"
+red = "#E45649"
+yellow = "#FF9E3B"
 
 [color-theme.syntax]
 "comment" = "#A0A1A7"
@@ -69,20 +68,34 @@ orange = "#F25B43"
 "tag" = "$blue"
 
 [color-theme.ui]
-"lapce.active_tab" = "#ece8ff"
-"lapce.inactive_tab" = "$grey"
 "lapce.error" = "$red"
 "lapce.warn" = "$yellow"
 "lapce.dropdown_shadow" = "#B4B4B4"
 "lapce.border" = "#B4B4B4"
 "lapce.scroll_bar" = "#B4B4B4"
-"lapce.icon_active" = "$black"
-"lapce.icon_inactive" = "$grey"
+
+"lapce.button.primary.background" = "#50a14f"
+"lapce.button.primary.foreground" = "$white"
 
 "lapce.remote.local" = "#4078F2"
 "lapce.remote.connected" = "#50A14F"
 "lapce.remote.connecting" = "#C18401"
 "lapce.remote.discconnected" = "#E45649"
+# tab
+"lapce.tab.active.background" = "$white"
+"lapce.tab.active.foreground" = "$black"
+"lapce.tab.active.underline" = "#528BFF"
+
+"lapce.tab.inactive.background" = "#EAEAEB"
+"lapce.tab.inactive.foreground" = "$black"
+"lapce.tab.inactive.underline" = "#528BFF77"
+
+"lapce.tab.separator" = "#B4B4B4"
+
+
+"lapce.icon.active" = "$black"
+"lapce.icon.inactive" = "#A0A1A7"
+
 
 "terminal.cursor" = "$black"
 "terminal.foreground" = "$black"
@@ -143,26 +156,10 @@ orange = "#F25B43"
 
 "markdown.blockquote" = "#686868"
 
-"lapce.button.primary.background" = "#50a14f"
-"lapce.button.primary.foreground" = "$white"
 
-# tab
-"lapce.tab.active.background" = "$white"
-"lapce.tab.active.foreground" = "$black"
-"lapce.tab.active.underline" = "#528BFF"
 
-"lapce.tab.inactive.background" = "#EAEAEB"
-"lapce.tab.inactive.foreground" = "$black"
-"lapce.tab.inactive.underline" = "#528BFF77"
 
-"lapce.tab.separator" = "#B4B4B4"
 
-"lapce.icon.active" = "$black"
-"lapce.icon.inactive" = "#A0A1A7"
-
-"lapce.remote.local" = "#4078F2"
-"lapce.remote.connected" = "#50A14F"
-"lapce.remote.connecting" = "#C18401"
 "lapce.remote.disconnected" = "#E45649"
 
 "lapce.plugin.name" = "#444444"
