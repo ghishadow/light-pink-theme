@@ -1,6 +1,6 @@
 #:schema https://raw.githubusercontent.com/ghishadow/lapce-schema/main/volt.theme.schema.json
 name = "lightpink"
-version = "0.2.7"
+version = "0.2.8"
 display-name = "Cute Light Pink"
 description = "Cute Light Pink"
 author = "ghishadow"

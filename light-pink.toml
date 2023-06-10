@@ -126,7 +126,7 @@ yellow = "#FF9E3B"
 "editor.selection" = "#f1b2d288"
 "editor.current_line" = "#b9cdf088"
 "editor.link" = "$cyan"
-"editor.sticky_header_background" = "$white"
+"editor.sticky_header_background" = "#FEEEEC"
 
 "inlay_hint.foreground" = "#000000"
 "inlay_hint.background" = "#528bFF55"
